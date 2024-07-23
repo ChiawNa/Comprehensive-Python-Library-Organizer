@@ -6,9 +6,12 @@ end_of_system = False
 books = []
 
 def display():
-    print("Books in the library:")
-    for book in books:
-        print(f"Name: {book['name']}, \nAuthor: {book['author']}, \nPages: {book['pages']}\n")
+    print("Book lists: ")
+    if not books:  # Check if the books list is empty
+        print("The book lists is empty.")
+    else:
+        for book in books:
+            print(f"Name: {book['name']}, \nAuthor: {book['author']}, \nPages: {book['pages']}\n")
 
 
 def add():
@@ -16,6 +19,7 @@ def add():
     book_author = str(input("Insert the book author: ")).strip()
     book_pages = str(input("Insert the book pages: ")).strip()
     books.append({"name": book_name, "author": book_author, "pages": book_pages})
+    print(f"Book '{book_name}' by {book_author} with {book_pages} pages has been added.")
 
 
 def remove():
@@ -24,6 +28,15 @@ def remove():
         if book['name'] == book_name:
             books.remove(book)
             print(f"Book '{book_name}' removed.")
+            return
+    print(f"Book '{book_name}' not found.")
+
+
+def search():
+    book_name = input("Insert the book name to search: ").strip()
+    for book in books:
+        if book['name'].lower() == book_name.lower():
+            print(f"Book found: Name: {book['name']}, Author: {book['author']}, Pages: {book['pages']}")
             return
     print(f"Book '{book_name}' not found.")
 
@@ -40,7 +53,7 @@ def save_list():
     
     with open(filename, "w") as file:
         for book in books:
-            file.write(f"Name: {book['name']}, Author: {book['author']}, Pages: {book['pages']}\n")
+            file.write(f"Name: {book['name']}| Author: {book['author']}| Pages: {book['pages']}\n")
     
     print(f"Book list has been saved successfully as {filename}.")
 
@@ -55,23 +68,25 @@ def load_list():
         print(f"File '{filename}' does not exist.")
         return
     
-    with open(filename, "r") as file:
-        global books
-        books = []
-        for line in file:
-            name, author, pages = line.strip().split('|')
-            books.append({"name": name, "author": author, "pages": pages})
+    global books
+    books = []  # Clear the current list
     
-    print(f"Book list loaded from {filename}.")
+    with open(filename, "r") as file:
+        print(f"Loading contents from {filename}...")
+        for line in file:
+            # Print the raw line from the file for user reference
+            print(line.strip())
+            
+            try:
+                # Assuming the format in file is: Name|Author|Pages
+                name, author, pages = line.strip().split('|')
+                books.append({"name": name.strip(), "author": author.strip(), "pages": pages.strip()})
+            except ValueError:
+                print(f"Line format error in file '{filename}'. Skipping line.")
+    
+    print(f"Book list successfully loaded from {filename}.")
 
 
-def search():
-    book_name = input("Insert the book name to search: ").strip()
-    for book in books:
-        if book['name'].lower() == book_name.lower():
-            print(f"Book found: Name: {book['name']}, Author: {book['author']}, Pages: {book['pages']}")
-            return
-    print(f"Book '{book_name}' not found.")
 
 
 while not end_of_system: 
@@ -80,9 +95,9 @@ while not end_of_system:
     print("1. Display Book Lists")
     print("2. Add Books")
     print("3. Remove Books")
-    print("4. Save Books List")
-    print("5. Load Books List")
-    print("6. Search Books")
+    print("4. Search Books")
+    print("5. Save Books List")
+    print("6. Load Books List")
     print("7. Exit\n")
 
     choice = input("Enter your choice (1-7): ")
@@ -94,11 +109,11 @@ while not end_of_system:
     elif choice == "3":
         remove()
     elif choice == "4":
-        save_list()
-    elif choice == "5":
-        load_list()
-    elif choice == "6":
         search()
+    elif choice == "5":
+        save_list()
+    elif choice == "6":
+        load_list()
     elif choice == "7":
         end_of_system = True
     else:
