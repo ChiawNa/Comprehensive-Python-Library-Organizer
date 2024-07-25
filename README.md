@@ -15,4 +15,4 @@ The Library Management System (LMS) is designed to simplify the management of li
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/library-management-system.git
+   git clone https://github.com/ChiawNa/Comprehensive-Python-Library-Organizer.git
