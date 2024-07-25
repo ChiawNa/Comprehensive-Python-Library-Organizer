@@ -2,7 +2,7 @@
 A Python-based Library Management System to manage books efficiently. This system allows you to add, remove, display, search, save, and load book information.
 
 ## Introduction
-The Library Management System (LMS) is designed to simplify the management of library books. It offers functionalities to add new books, remove existing ones, search for specific books, and save/load book lists to/from files. This system is implemented in Python and uses a text-based interface for user interaction.
+The Library Management System is designed to simplify the management of library books. It offers functionalities to add new books, remove existing ones, search for specific books, and save/load book lists to/from files. This system is implemented in Python and uses a text-based interface for user interaction.
 
 ## Features
 - **Display Book List**: View all books currently in the system.
