@@ -3,7 +3,8 @@ A Python-based Library Management System to manage books efficiently. This syste
 
  + [Result](#Result)
  + [Introduction](#Introduction)
- + 
+ + [Features](#Features)
+ + [Installation](#Installation)
 
 ## Result 
 <div align="center">
