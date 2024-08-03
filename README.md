@@ -23,7 +23,7 @@ The Library Management System is designed to simplify the management of library 
    ```bash
    git clone https://github.com/ChiawNa/Comprehensive-Python-Library-Organizer.git
 
-## Result 
+## Results 
 
 #### 1. User Interface
 <div align="left">
