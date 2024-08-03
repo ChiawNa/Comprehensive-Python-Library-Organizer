@@ -26,18 +26,36 @@ The Library Management System is designed to simplify the management of library 
 ## Result 
 
 #### 1. User Interface
-<div align="center">
+<div align="left">
    <img src="https://github.com/user-attachments/assets/7ec12df9-560d-4466-94ed-7d7915077d74" alt="Library Logo" width="350" />
 </div>
 
 
 #### 2. Display book lists
-<div align="center">
+<div align="left">
    <img src="https://github.com/user-attachments/assets/207b4a8b-80d6-4d99-ac6d-5bef2d8827ab" alt="book list" width="350" />
 </div>
 
 
 #### 3. Borrow book
-<div align="center">
+<div align="left">
    <img src="https://github.com/user-attachments/assets/560c934c-a3cc-4a0b-9746-f3c8f9c56fb1" alt="book list" width="350" />
+</div>
+
+#### 4. Search book
+<div align="left">
+   <img src="https://github.com/user-attachments/assets/ca390430-3b55-428a-bb6e-e2498b8e15fc" alt="book list" width="550" />
+</div>
+
+#### 5. Save book lists
+<div align="left">
+   <img src="https://github.com/user-attachments/assets/e74baab4-22df-4e68-976a-eebb690285f1" alt="book list" width="350" />
+</div>
+<div align="left">
+    <img src="https://github.com/user-attachments/assets/d72c643f-d25e-4e27-ae8f-72c26d67b403" alt="book list" width="500" />
+</div>
+
+#### 6. Load book lists
+<div align="left">
+   <img src="https://github.com/user-attachments/assets/2f99ed08-d744-44be-934c-70d5f888b345" alt="book list" width="350" />
 </div>
