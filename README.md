@@ -1,15 +1,5 @@
 # Library Management System
-A Python-based Library Management System to manage books efficiently. This system allows you to add, remove, display, search, save, and load book information.
-
-## Introduction
-The Library Management System (LMS) is designed to simplify the management of library books. It offers functionalities to add new books, remove existing ones, search for specific books, and save/load book lists to/from files. This system is implemented in Python and uses a text-based interface for user interaction.
-
-## Features
-- **Display Book List**: View all books currently in the system.
-- **Add Books**: Add new books with details such as name, author, and pages.
-- **Remove Books**: Remove books from the system by name.
-=======
-A Python-based Library Management System to manage books efficiently. This system allows you to borrow, return, display, search, save, and load book list.
+A Python-based Library Management System to manage books efficiently. This system allows you to borrow, return, display, search, save, and load book lists.
 
  + [Introduction](#Introduction)
  + [Features](#Features)
@@ -24,7 +14,6 @@ The Library Management System is designed to simplify the management of library 
 - **Display Book List**: View all books currently in the system.
 - **Borrow Books**: Add new books with details such as name, author, and pages.
 - **Return Books**: Remove books from the system by name.
->>>>>>> a5a123684b43fb404e593c93091c13fff9caf7fd
 - **Search Books**: Search for books by name.
 - **Save Book List**: Save the current list of books to a file.
 - **Load Book List**: Load books from a file.
@@ -32,9 +21,6 @@ The Library Management System is designed to simplify the management of library 
 ## Installation
 1. Clone the repository:
    ```bash
-<<<<<<< HEAD
-   git clone https://github.com/ChiawNa/Comprehensive-Python-Library-Organizer.git
-=======
    git clone https://github.com/ChiawNa/Comprehensive-Python-Library-Organizer.git
 
 ## Results 
@@ -44,12 +30,10 @@ The Library Management System is designed to simplify the management of library 
    <img src="https://github.com/user-attachments/assets/7ec12df9-560d-4466-94ed-7d7915077d74" alt="Library Logo" width="350" />
 </div>
 
-
 #### 2. Display book lists
 <div align="left">
    <img src="https://github.com/user-attachments/assets/207b4a8b-80d6-4d99-ac6d-5bef2d8827ab" alt="book list" width="350" />
 </div>
-
 
 #### 3. Borrow book
 <div align="left">
@@ -78,4 +62,3 @@ The Library Management System is designed to simplify the management of library 
 <div align="left">
    <img src="https://github.com/user-attachments/assets/2f99ed08-d744-44be-934c-70d5f888b345" alt="book list" width="350" />
 </div>
->>>>>>> a5a123684b43fb404e593c93091c13fff9caf7fd
