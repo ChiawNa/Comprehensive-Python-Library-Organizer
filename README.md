@@ -4,7 +4,7 @@ A Python-based Library Management System to manage books efficiently. This syste
  + [Introduction](#Introduction)
  + [Features](#Features)
  + [Installation](#Installation)
- + [Result](#Result)
+ + [Results](#Results)
 
 
 ## Introduction
