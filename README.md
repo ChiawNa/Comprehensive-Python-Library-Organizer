@@ -1,5 +1,4 @@
 # Library Management System
-<<<<<<< HEAD
 A Python-based Library Management System to manage books efficiently. This system allows you to add, remove, display, search, save, and load book information.
 
 ## Introduction
