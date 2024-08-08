@@ -12,7 +12,7 @@ The Library Management System is designed to simplify the management of library 
 
 ## Features
 ![Static Badge](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Static Badge](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white&link=https%3A%2F%2Fgithub.com%2Flogos)
+![Static Badge](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
 - **Display Book List**: View all books currently in the system.
 - **Borrow Books**: Add new books with details such as name, author, and pages.
 - **Return Books**: Remove books from the system by name.
