@@ -11,6 +11,8 @@ A Python-based Library Management System to manage books efficiently. This syste
 The Library Management System is designed to simplify the management of library books. It offers functionalities to display the existing book lists, borrow and return books, search for specific books, and save/load book lists to/from files. This system is implemented in Python and uses a text-based interface for user interaction.
 
 ## Features
+![Static Badge](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Static Badge](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white&link=https%3A%2F%2Fgithub.com%2Flogos)
 - **Display Book List**: View all books currently in the system.
 - **Borrow Books**: Add new books with details such as name, author, and pages.
 - **Return Books**: Remove books from the system by name.
